@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Screen Sharing</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 1280px;
+        height: 720px;
+
+    }
+</style>
+
+<body>
+    <h1>Live Screen</h1>
+    <img src="{{ url_for('video_feed') }}">
+</body>
+
+</html>
